@@ -32,3 +32,16 @@ A fully functional **signup page built in React**, featuring **Firebase authenti
 
 ## 🗂️ Folder Structure
 
+signup-page/
+├── public/
+│ ├── assets/
+│ │ └── Videos/space-bg.gif
+│ └── index.html
+├── src/
+│ ├── SignupPage.js
+│ ├── SignupPage.css
+│ ├── firebase.js
+│ ├── App.js
+│ └── index.css
+├── package.json
+└── README.md
