@@ -6,14 +6,14 @@ A fully functional **signup page built in React**, featuring **Firebase authenti
 
 ## 🚀 Features
 
-- 🔐 **Firebase Authentication** — Create users securely with email and password.
-- 🌍 **Country Selector** — Users can choose their country via an API-powered dropdown (`country-select-js`).
-- 👁️ **Password Visibility Toggle** — Eye icons to show/hide passwords dynamically.
-- ⚡ **Real-Time Validation** — Instant feedback for invalid or missing input fields.
-- 📜 **Terms & Conditions Modal** — Opens a smooth, scrollable modal with acceptance logic.
-- 🌠 **Animated Background** — Space-themed animated background for a unique aesthetic.
-- 🧠 **Smart UX** — Input field highlights, validation hints, and auto-reset after success.
-- 💾 **Firestore Data Storage** — Automatically stores new user information in your Firebase database.
+- 🔐 **Firebase Authentication** — Create users securely with email and password.  
+- 🌍 **Country Selector** — Users can choose their country via an API-powered dropdown (`country-select-js`).  
+- 👁️ **Password Visibility Toggle** — Eye icons to show/hide passwords dynamically.  
+- ⚡ **Real-Time Validation** — Instant feedback for invalid or missing input fields.  
+- 📜 **Terms & Conditions Modal** — Opens a smooth, scrollable modal with acceptance logic.  
+- 🌠 **Animated Background** — Space-themed animated background for a unique aesthetic.  
+- 🧠 **Smart UX** — Input field highlights, validation hints, and auto-reset after success.  
+- 💾 **Firestore Data Storage** — Automatically stores new user information in your Firebase database.  
 
 ---
 
@@ -32,16 +32,22 @@ A fully functional **signup page built in React**, featuring **Firebase authenti
 
 ## 🗂️ Folder Structure
 
-signup-page/
+```plaintext
+my-signupPage/
 ├── public/
-│ ├── assets/
-│ │ └── Videos/space-bg.gif
-│ └── index.html
+│   ├── assets/
+│   │   └── Videos/
+│   │       └── space-bg.gif
+│   └── index.html
+│
 ├── src/
-│ ├── SignupPage.js
-│ ├── SignupPage.css
-│ ├── firebase.js
-│ ├── App.js
-│ └── index.css
+│   ├── App.js
+│   ├── SignupPage.js
+│   ├── SignupPage.css
+│   ├── firebase.js
+│   ├── index.css
+│   └── main.jsx or index.jsx
+│
 ├── package.json
+├── yarn.lock or package-lock.json
 └── README.md
